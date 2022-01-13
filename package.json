@@ -1,0 +1,29 @@
+{
+  "name": "cantweight2clean",
+  "version": "1.0.0",
+  "description": "gym cleaning service",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && npm run dev && npm run open",
+    "build": "echo 'build script executed'",
+    "open": "concurrently \"http-server -a localhost -p 1234\" \"sleepms 1000 && open http://localhost:1234/build\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Faskyy/cwtc.git"
+  },
+  "author": "Fahd K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Faskyy/cwtc/issues"
+  },
+  "homepage": "https://github.com/Faskyy/cwtc#readme",
+  "dependencies": {
+    "all": "^0.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "http-server": "^14.1.0"
+  }
+}
