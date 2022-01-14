@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Faskyy/cwtc#readme",
   "dependencies": {
+    "@unimodules/react-native-adapter": "^6.3.9",
     "all": "^0.0.0"
   },
   "devDependencies": {
